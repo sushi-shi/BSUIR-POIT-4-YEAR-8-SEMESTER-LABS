@@ -1,0 +1,5 @@
+CREATE USER bank_admin;
+ALTER USER bank_admin PASSWORD 'hello'
+GRANT ALL PRIVILEGES ON database bank TO bank_admin;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA bank TO bank_admin;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA bank TO bank_admin;

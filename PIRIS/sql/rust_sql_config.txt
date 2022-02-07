@@ -1,0 +1,1 @@
+host=localhost user=bank_admin dbname=bank password=hello
