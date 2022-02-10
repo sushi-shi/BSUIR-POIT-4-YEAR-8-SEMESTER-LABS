@@ -1,5 +1,6 @@
 pub mod add_user;
 pub mod common;
+pub mod deposit;
 pub mod field;
 pub mod list_users;
 pub mod main;
